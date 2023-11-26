@@ -1,0 +1,33 @@
+.FooterTopLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.HeadLi {
+  color: #000 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.FooterTopLinks ul {
+  font-family: "Rubik";
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.FooterTopLinks ul li a {
+  color: #785f5f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.FooterTopLinks ul li a:hover {
+  color: #0f0d0d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.firstlinks {
+}

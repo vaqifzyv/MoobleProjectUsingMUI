@@ -1,0 +1,13 @@
+.searchBar {
+  border-radius: 70px;
+  background: #fff;
+  box-shadow: 10px 20.48998px 38.5208px 20px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(1.5408319234848022px);
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  width: 60%;
+  margin-left: 150px;
+}

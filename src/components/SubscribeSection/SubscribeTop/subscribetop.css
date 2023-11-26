@@ -1,0 +1,33 @@
+.SubscribeTop {
+  position: relative; /* Add position relative to the parent */
+  background-image: url("src/assets/subscribtionBg.jfif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SubscribeTop::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.35
+  ); /* Adjust the alpha value for darkness */
+}
+
+.SubscribeTopText {
+  position: relative; /* Add position relative to the parent */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-block: 180px;
+  padding-right: 120px;
+}

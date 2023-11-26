@@ -1,0 +1,50 @@
+.qualityRight {
+  width: 40%;
+}
+
+.qualityRight img {
+  width: 477.206px;
+  height: 557.471px;
+}
+
+.qualityRightMark {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px 20px;
+  gap: 20px;
+  right: 450px;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  transition: 0.5s;
+}
+
+.qualityRightMark:hover {
+  box-shadow: none;
+}
+
+.qualityRightMarkRight {
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.qualityRightSecondCard {
+  position: absolute;
+  background-color: #fff;
+  padding: 20px 25px;
+  gap: 20px;
+  right: 50px;
+  margin-top: 450px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  transition: 0.5s;
+}
+
+.qualityRightSecondCard:hover {
+  box-shadow: none;
+}

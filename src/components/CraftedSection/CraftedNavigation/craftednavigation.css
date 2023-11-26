@@ -1,0 +1,30 @@
+.CraftedNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CraftedNavigationRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+.CraftedNavigationRight ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.CraftedNavigationRight ul li a {
+  color: #999;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.CraftedNavigationRight ul li a:hover {
+  color: #2e2e2e;
+}

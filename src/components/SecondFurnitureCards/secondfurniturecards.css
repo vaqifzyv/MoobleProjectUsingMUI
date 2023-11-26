@@ -1,0 +1,9 @@
+.secondfurniturecards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-block: 120px;
+}
